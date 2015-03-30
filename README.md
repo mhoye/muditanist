@@ -14,4 +14,4 @@ This thing:
 
 
 Mike Hoye, 
-,hoye@mozilla.com
+mhoye@mozilla.com
