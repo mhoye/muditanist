@@ -1,16 +1,17 @@
 
-Mudita: Joy, especially sympathetic or vicarious joy. The pleasure that comes from delighting in other people's well-being
+Mudita: Sympathetic or vicarious joy; delighting in other people's well-being.
 
 http://en.wikipedia.org/wiki/Mudita
 
-This thing:
-
-- adds an icon to the toolbar
-- detects whether or not a site has a contribute.json file in its root dir, 
+This is a Firefox addon that surfaces the participation information that's tucked away in contribute.json files
+on various websites. It does this by:
+- Adding an icon to the toolbar. 
+- detecting whether or not a site has a contribute.json file in its root dir, 
   e.g http://mozilla.org/contribute.json 
-- lights up the icon 
-- Presents the suitably styled and html-ified contents of that contribute.json file when clicked.
+- lighting up the icon if it does and 
+- presenting the user with the suitably-styled and htmlified contents of that contribute.json file when clicked.
 
+contribute.json reference: http://contribute.paas.allizom.org/
 
 
 Mike Hoye, 
