@@ -3,24 +3,40 @@
 <head>
   <style>
     body {
-      background: #103267;
-      color: white;
-      font-family: sans-serif;
-      font-size: 14pt;
+      background: linear-gradient(hsla(0,0%,99%,1), hsla(0,0%,99%,0.975) 10%, hsla(0,0%,98%,0.975));
+      color: hsl(0,0%,10%);
       padding: 5px;
+      font-family: "Clear Sans", sans-serif;
+      font-size: 14pt;
       line-height: 110%;
     }
 
     .center {
       text-align: center;
     }
+
+    body > h2 {
+      border-bottom: 1px solid #424F5A;
+      padding-bottom: 1em;
+      margin-bottom: 2em;
+    }
+
+    a {
+      color: #0095DD;
+    }
+    a:hover {
+      color: #008ACB;
+    }
+    a:active {
+      color: #006B9D;
+    }
   </style>
 </head>
 <body>
   <h2 class="center"><span id="name"></span> is a part of the Open Web.</h2>
   <p>Description: <span id="description"></span></p>
-  <p>Source repo:  <span id="repository.url"></span></p>
-  <p>If you want to participate: <span id="participate.home"></span></p>
+  <p>Source repo:  <a id="repository.url"></a></p>
+  <p>If you want to participate: <a id="participate.home"></a></p>
   <br/>
   <div class="center">Other the Contribute.JSON spec supports includes bugs, IRC contacts, mailing lists, etc.</div>
 </body>
