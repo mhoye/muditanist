@@ -1,4 +1,6 @@
 
+(For historical reference, now. contribute.json is no longer a going concern.)
+
 Mudita: Sympathetic or vicarious joy; delighting in other people's well-being.
 
 http://en.wikipedia.org/wiki/Mudita
@@ -14,5 +16,5 @@ on various websites. It does this by:
 contribute.json reference: http://contribute.paas.allizom.org/
 
 
-Mike Hoye,
-mhoye@mozilla.com
+
+- mhoye
